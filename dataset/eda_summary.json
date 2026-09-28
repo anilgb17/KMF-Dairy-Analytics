@@ -1,0 +1,2610 @@
+{
+  "kpis": {
+    "total_revenue": 111189799,
+    "total_revenue_formatted": "Rs. 11.12 Cr (Rs. 111,189,799)",
+    "total_quantity": 1736152,
+    "total_quantity_formatted": "1,736,152 units",
+    "total_transactions": 4982,
+    "avg_order_value": 22318.31,
+    "avg_quantity": 348.48,
+    "unique_products": 20,
+    "unique_locations": 10,
+    "unique_distributors": 10,
+    "unique_categories": 6,
+    "peak_month": {
+      "month": "Aug",
+      "revenue": 11137908
+    },
+    "lowest_month": {
+      "month": "Feb",
+      "revenue": 7605419
+    },
+    "top_product_revenue": "Nandini Pure Ghee (1L)",
+    "top_product_quantity": "Nandini Spiced Buttermilk (200ml)",
+    "top_location": "Bengaluru",
+    "top_distributor": "Apex Dairy Supplies Bengaluru"
+  },
+  "monthly_data": [
+    {
+      "month": "Jan",
+      "month_num": 1,
+      "revenue": 8032763,
+      "quantity": 135314,
+      "transactions": 414
+    },
+    {
+      "month": "Feb",
+      "month_num": 2,
+      "revenue": 7605419,
+      "quantity": 123426,
+      "transactions": 397
+    },
+    {
+      "month": "Mar",
+      "month_num": 3,
+      "revenue": 10252512,
+      "quantity": 183138,
+      "transactions": 460
+    },
+    {
+      "month": "Apr",
+      "month_num": 4,
+      "revenue": 8395449,
+      "quantity": 164331,
+      "transactions": 386
+    },
+    {
+      "month": "May",
+      "month_num": 5,
+      "revenue": 8797908,
+      "quantity": 181830,
+      "transactions": 397
+    },
+    {
+      "month": "Jun",
+      "month_num": 6,
+      "revenue": 7937605,
+      "quantity": 120540,
+      "transactions": 395
+    },
+    {
+      "month": "Jul",
+      "month_num": 7,
+      "revenue": 8602222,
+      "quantity": 138597,
+      "transactions": 454
+    },
+    {
+      "month": "Aug",
+      "month_num": 8,
+      "revenue": 11137908,
+      "quantity": 138602,
+      "transactions": 413
+    },
+    {
+      "month": "Sep",
+      "month_num": 9,
+      "revenue": 10823211,
+      "quantity": 135647,
+      "transactions": 411
+    },
+    {
+      "month": "Oct",
+      "month_num": 10,
+      "revenue": 10495954,
+      "quantity": 148954,
+      "transactions": 417
+    },
+    {
+      "month": "Nov",
+      "month_num": 11,
+      "revenue": 10560035,
+      "quantity": 139649,
+      "transactions": 406
+    },
+    {
+      "month": "Dec",
+      "month_num": 12,
+      "revenue": 8548813,
+      "quantity": 126124,
+      "transactions": 432
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "product": "Nandini Pure Ghee (1L)",
+      "category": "Ghee & Butter",
+      "unit_price": 610,
+      "quantity": 22554,
+      "revenue": 13757940,
+      "transactions": 210,
+      "revenue_share_pct": 12.37,
+      "quantity_share_pct": 1.3
+    },
+    {
+      "rank": 2,
+      "product": "Nandini Pure Ghee (500Ml)",
+      "category": "Ghee & Butter",
+      "unit_price": 315,
+      "quantity": 40295,
+      "revenue": 12692925,
+      "transactions": 259,
+      "revenue_share_pct": 11.42,
+      "quantity_share_pct": 2.32
+    },
+    {
+      "rank": 3,
+      "product": "Nandini Toned Milk (1L)",
+      "category": "Milk",
+      "unit_price": 42,
+      "quantity": 238672,
+      "revenue": 10024224,
+      "transactions": 253,
+      "revenue_share_pct": 9.02,
+      "quantity_share_pct": 13.75
+    },
+    {
+      "rank": 4,
+      "product": "Nandini Salted Butter (500G)",
+      "category": "Ghee & Butter",
+      "unit_price": 275,
+      "quantity": 29333,
+      "revenue": 8066575,
+      "transactions": 255,
+      "revenue_share_pct": 7.25,
+      "quantity_share_pct": 1.69
+    },
+    {
+      "rank": 5,
+      "product": "Nandini Homogenised Cow Milk (1L)",
+      "category": "Milk",
+      "unit_price": 46,
+      "quantity": 175187,
+      "revenue": 8058602,
+      "transactions": 264,
+      "revenue_share_pct": 7.25,
+      "quantity_share_pct": 10.09
+    },
+    {
+      "rank": 6,
+      "product": "Nandini Special Milk (1L)",
+      "category": "Milk",
+      "unit_price": 48,
+      "quantity": 140087,
+      "revenue": 6724176,
+      "transactions": 283,
+      "revenue_share_pct": 6.05,
+      "quantity_share_pct": 8.07
+    },
+    {
+      "rank": 7,
+      "product": "Nandini Unsalted Butter (500G)",
+      "category": "Ghee & Butter",
+      "unit_price": 280,
+      "quantity": 18890,
+      "revenue": 5289200,
+      "transactions": 238,
+      "revenue_share_pct": 4.76,
+      "quantity_share_pct": 1.09
+    },
+    {
+      "rank": 8,
+      "product": "Nandini Mysore Pak (250g)",
+      "category": "Sweets",
+      "unit_price": 160,
+      "quantity": 32900,
+      "revenue": 5264000,
+      "transactions": 233,
+      "revenue_share_pct": 4.73,
+      "quantity_share_pct": 1.89
+    },
+    {
+      "rank": 9,
+      "product": "Nandini Milk Peda (250g)",
+      "category": "Sweets",
+      "unit_price": 140,
+      "quantity": 36495,
+      "revenue": 5109300,
+      "transactions": 236,
+      "revenue_share_pct": 4.6,
+      "quantity_share_pct": 2.1
+    },
+    {
+      "rank": 10,
+      "product": "Nandini Fresh Paneer (200g)",
+      "category": "Fresh Dairy",
+      "unit_price": 95,
+      "quantity": 53301,
+      "revenue": 5063595,
+      "transactions": 232,
+      "revenue_share_pct": 4.55,
+      "quantity_share_pct": 3.07
+    },
+    {
+      "rank": 11,
+      "product": "Nandini Gulab Jamun (1Kg)",
+      "category": "Sweets",
+      "unit_price": 260,
+      "quantity": 18786,
+      "revenue": 4884360,
+      "transactions": 225,
+      "revenue_share_pct": 4.39,
+      "quantity_share_pct": 1.08
+    },
+    {
+      "rank": 12,
+      "product": "Nandini Shubham Milk (1L)",
+      "category": "Milk",
+      "unit_price": 50,
+      "quantity": 86922,
+      "revenue": 4346100,
+      "transactions": 255,
+      "revenue_share_pct": 3.91,
+      "quantity_share_pct": 5.01
+    },
+    {
+      "rank": 13,
+      "product": "Nandini Curd (500g)",
+      "category": "Fresh Dairy",
+      "unit_price": 26,
+      "quantity": 148224,
+      "revenue": 3853824,
+      "transactions": 227,
+      "revenue_share_pct": 3.47,
+      "quantity_share_pct": 8.54
+    },
+    {
+      "rank": 14,
+      "product": "Nandini Samrudhi Milk (1L)",
+      "category": "Milk",
+      "unit_price": 54,
+      "quantity": 67841,
+      "revenue": 3663414,
+      "transactions": 273,
+      "revenue_share_pct": 3.29,
+      "quantity_share_pct": 3.91
+    },
+    {
+      "rank": 15,
+      "product": "Nandini Spiced Buttermilk (200ml)",
+      "category": "Beverages",
+      "unit_price": 12,
+      "quantity": 256577,
+      "revenue": 3078924,
+      "transactions": 255,
+      "revenue_share_pct": 2.77,
+      "quantity_share_pct": 14.78
+    },
+    {
+      "rank": 16,
+      "product": "Nandini Flavoured Milk Badam (200ml)",
+      "category": "Beverages",
+      "unit_price": 35,
+      "quantity": 77557,
+      "revenue": 2714495,
+      "transactions": 269,
+      "revenue_share_pct": 2.44,
+      "quantity_share_pct": 4.47
+    },
+    {
+      "rank": 17,
+      "product": "Nandini Sweet Lassi (200ml)",
+      "category": "Beverages",
+      "unit_price": 20,
+      "quantity": 128274,
+      "revenue": 2565480,
+      "transactions": 255,
+      "revenue_share_pct": 2.31,
+      "quantity_share_pct": 7.39
+    },
+    {
+      "rank": 18,
+      "product": "Nandini Cassata Ice Cream (150ml)",
+      "category": "Frozen",
+      "unit_price": 55,
+      "quantity": 41637,
+      "revenue": 2290035,
+      "transactions": 237,
+      "revenue_share_pct": 2.06,
+      "quantity_share_pct": 2.4
+    },
+    {
+      "rank": 19,
+      "product": "Nandini Kulfi (50ml)",
+      "category": "Frozen",
+      "unit_price": 25,
+      "quantity": 77478,
+      "revenue": 1936950,
+      "transactions": 277,
+      "revenue_share_pct": 1.74,
+      "quantity_share_pct": 4.46
+    },
+    {
+      "rank": 20,
+      "product": "Nandini Set Curd (400g)",
+      "category": "Fresh Dairy",
+      "unit_price": 40,
+      "quantity": 45142,
+      "revenue": 1805680,
+      "transactions": 246,
+      "revenue_share_pct": 1.62,
+      "quantity_share_pct": 2.6
+    }
+  ],
+  "categories": [
+    {
+      "category": "Ghee & Butter",
+      "revenue": 39806640,
+      "quantity": 111072,
+      "transactions": 962,
+      "revenue_share_pct": 35.8
+    },
+    {
+      "category": "Milk",
+      "revenue": 32816516,
+      "quantity": 708709,
+      "transactions": 1328,
+      "revenue_share_pct": 29.51
+    },
+    {
+      "category": "Sweets",
+      "revenue": 15257660,
+      "quantity": 88181,
+      "transactions": 694,
+      "revenue_share_pct": 13.72
+    },
+    {
+      "category": "Fresh Dairy",
+      "revenue": 10723099,
+      "quantity": 246667,
+      "transactions": 705,
+      "revenue_share_pct": 9.64
+    },
+    {
+      "category": "Beverages",
+      "revenue": 8358899,
+      "quantity": 462408,
+      "transactions": 779,
+      "revenue_share_pct": 7.52
+    },
+    {
+      "category": "Frozen",
+      "revenue": 4226985,
+      "quantity": 119115,
+      "transactions": 514,
+      "revenue_share_pct": 3.8
+    }
+  ],
+  "locations": [
+    {
+      "rank": 1,
+      "location": "Bengaluru",
+      "revenue": 49567347,
+      "quantity": 752973,
+      "transactions": 1898,
+      "revenue_share_pct": 44.58
+    },
+    {
+      "rank": 2,
+      "location": "Mysuru",
+      "revenue": 16178901,
+      "quantity": 260453,
+      "transactions": 706,
+      "revenue_share_pct": 14.55
+    },
+    {
+      "rank": 3,
+      "location": "Hubballi",
+      "revenue": 11409381,
+      "quantity": 172634,
+      "transactions": 568,
+      "revenue_share_pct": 10.26
+    },
+    {
+      "rank": 4,
+      "location": "Mangaluru",
+      "revenue": 7983522,
+      "quantity": 131154,
+      "transactions": 430,
+      "revenue_share_pct": 7.18
+    },
+    {
+      "rank": 5,
+      "location": "Belagavi",
+      "revenue": 6686634,
+      "quantity": 96553,
+      "transactions": 357,
+      "revenue_share_pct": 6.01
+    },
+    {
+      "rank": 6,
+      "location": "Kalaburagi",
+      "revenue": 5010904,
+      "quantity": 85264,
+      "transactions": 279,
+      "revenue_share_pct": 4.51
+    },
+    {
+      "rank": 7,
+      "location": "Davanagere",
+      "revenue": 4720739,
+      "quantity": 77057,
+      "transactions": 248,
+      "revenue_share_pct": 4.25
+    },
+    {
+      "rank": 8,
+      "location": "Ballari",
+      "revenue": 3533157,
+      "quantity": 60545,
+      "transactions": 168,
+      "revenue_share_pct": 3.18
+    },
+    {
+      "rank": 9,
+      "location": "Shivamogga",
+      "revenue": 3511827,
+      "quantity": 63160,
+      "transactions": 200,
+      "revenue_share_pct": 3.16
+    },
+    {
+      "rank": 10,
+      "location": "Tumakuru",
+      "revenue": 2587387,
+      "quantity": 36359,
+      "transactions": 128,
+      "revenue_share_pct": 2.33
+    }
+  ],
+  "location_monthly": {
+    "Ballari": {
+      "Jan": 229953,
+      "Feb": 211478,
+      "Mar": 370492,
+      "Apr": 558957,
+      "May": 194936,
+      "Jun": 146033,
+      "Jul": 198112,
+      "Aug": 291983,
+      "Sep": 403856,
+      "Oct": 311250,
+      "Nov": 392679,
+      "Dec": 223428
+    },
+    "Belagavi": {
+      "Jan": 434379,
+      "Feb": 320642,
+      "Mar": 530710,
+      "Apr": 448163,
+      "May": 638841,
+      "Jun": 292847,
+      "Jul": 537168,
+      "Aug": 822767,
+      "Sep": 965386,
+      "Oct": 452615,
+      "Nov": 530406,
+      "Dec": 712710
+    },
+    "Bengaluru": {
+      "Jan": 3959402,
+      "Feb": 3574594,
+      "Mar": 4594137,
+      "Apr": 3727356,
+      "May": 3890804,
+      "Jun": 3394073,
+      "Jul": 3849551,
+      "Aug": 4420118,
+      "Sep": 4886893,
+      "Oct": 4741915,
+      "Nov": 4724128,
+      "Dec": 3804376
+    },
+    "Davanagere": {
+      "Jan": 369354,
+      "Feb": 378379,
+      "Mar": 521107,
+      "Apr": 259751,
+      "May": 364311,
+      "Jun": 298040,
+      "Jul": 476634,
+      "Aug": 376661,
+      "Sep": 367164,
+      "Oct": 453490,
+      "Nov": 275716,
+      "Dec": 580132
+    },
+    "Hubballi": {
+      "Jan": 880309,
+      "Feb": 786576,
+      "Mar": 1079902,
+      "Apr": 842408,
+      "May": 1017373,
+      "Jun": 813561,
+      "Jul": 813597,
+      "Aug": 1165994,
+      "Sep": 987608,
+      "Oct": 1524210,
+      "Nov": 706138,
+      "Dec": 791705
+    },
+    "Kalaburagi": {
+      "Jan": 364312,
+      "Feb": 412354,
+      "Mar": 409582,
+      "Apr": 519981,
+      "May": 331729,
+      "Jun": 464226,
+      "Jul": 344730,
+      "Aug": 399382,
+      "Sep": 424002,
+      "Oct": 307639,
+      "Nov": 688563,
+      "Dec": 344404
+    },
+    "Mangaluru": {
+      "Jan": 516638,
+      "Feb": 408348,
+      "Mar": 630482,
+      "Apr": 545854,
+      "May": 610806,
+      "Jun": 695448,
+      "Jul": 693279,
+      "Aug": 1043643,
+      "Sep": 631460,
+      "Oct": 550907,
+      "Nov": 942265,
+      "Dec": 714392
+    },
+    "Mysuru": {
+      "Jan": 789526,
+      "Feb": 1224444,
+      "Mar": 1462570,
+      "Apr": 1037510,
+      "May": 1284134,
+      "Jun": 1237330,
+      "Jul": 1431231,
+      "Aug": 2222502,
+      "Sep": 1471651,
+      "Oct": 1377982,
+      "Nov": 1600936,
+      "Dec": 1039085
+    },
+    "Shivamogga": {
+      "Jan": 296536,
+      "Feb": 133214,
+      "Mar": 439369,
+      "Apr": 246320,
+      "May": 167897,
+      "Jun": 292599,
+      "Jul": 95384,
+      "Aug": 323360,
+      "Sep": 428946,
+      "Oct": 361425,
+      "Nov": 466190,
+      "Dec": 260587
+    },
+    "Tumakuru": {
+      "Jan": 192354,
+      "Feb": 155390,
+      "Mar": 214161,
+      "Apr": 209149,
+      "May": 297077,
+      "Jun": 303448,
+      "Jul": 162536,
+      "Aug": 71498,
+      "Sep": 256245,
+      "Oct": 414521,
+      "Nov": 233014,
+      "Dec": 77994
+    }
+  },
+  "distributors": [
+    {
+      "rank": 1,
+      "distributor": "Apex Dairy Supplies Bengaluru",
+      "location": "Bengaluru",
+      "revenue": 49567347,
+      "quantity": 752973,
+      "transactions": 1898,
+      "revenue_share_pct": 44.58,
+      "avg_transaction_revenue": 26115.57
+    },
+    {
+      "rank": 2,
+      "distributor": "Chamundi Agencies Mysuru",
+      "location": "Mysuru",
+      "revenue": 16178901,
+      "quantity": 260453,
+      "transactions": 706,
+      "revenue_share_pct": 14.55,
+      "avg_transaction_revenue": 22916.29
+    },
+    {
+      "rank": 3,
+      "distributor": "Kittur Distributors Hubballi",
+      "location": "Hubballi",
+      "revenue": 11409381,
+      "quantity": 172634,
+      "transactions": 568,
+      "revenue_share_pct": 10.26,
+      "avg_transaction_revenue": 20086.94
+    },
+    {
+      "rank": 4,
+      "distributor": "Coastal Cool Logistics Mangaluru",
+      "location": "Mangaluru",
+      "revenue": 7983522,
+      "quantity": 131154,
+      "transactions": 430,
+      "revenue_share_pct": 7.18,
+      "avg_transaction_revenue": 18566.33
+    },
+    {
+      "rank": 5,
+      "distributor": "North Karnataka Milk Center Belagavi",
+      "location": "Belagavi",
+      "revenue": 6686634,
+      "quantity": 96553,
+      "transactions": 357,
+      "revenue_share_pct": 6.01,
+      "avg_transaction_revenue": 18730.07
+    },
+    {
+      "rank": 6,
+      "distributor": "Kalyana Karnataka Foods Kalaburagi",
+      "location": "Kalaburagi",
+      "revenue": 5010904,
+      "quantity": 85264,
+      "transactions": 279,
+      "revenue_share_pct": 4.51,
+      "avg_transaction_revenue": 17960.23
+    },
+    {
+      "rank": 7,
+      "distributor": "Central Karnataka Traders Davanagere",
+      "location": "Davanagere",
+      "revenue": 4720739,
+      "quantity": 77057,
+      "transactions": 248,
+      "revenue_share_pct": 4.25,
+      "avg_transaction_revenue": 19035.24
+    },
+    {
+      "rank": 8,
+      "distributor": "Tungabhadra Dairy Logistics Ballari",
+      "location": "Ballari",
+      "revenue": 3533157,
+      "quantity": 60545,
+      "transactions": 168,
+      "revenue_share_pct": 3.18,
+      "avg_transaction_revenue": 21030.7
+    },
+    {
+      "rank": 9,
+      "distributor": "Malnad Dairy Network Shivamogga",
+      "location": "Shivamogga",
+      "revenue": 3511827,
+      "quantity": 63160,
+      "transactions": 200,
+      "revenue_share_pct": 3.16,
+      "avg_transaction_revenue": 17559.13
+    },
+    {
+      "rank": 10,
+      "distributor": "Siddaganga Milk Express Tumakuru",
+      "location": "Tumakuru",
+      "revenue": 2587387,
+      "quantity": 36359,
+      "transactions": 128,
+      "revenue_share_pct": 2.33,
+      "avg_transaction_revenue": 20213.96
+    }
+  ],
+  "customer_types": [
+    {
+      "customer_type": "Retail",
+      "revenue": 41178537,
+      "quantity": 636103,
+      "transactions": 2247,
+      "revenue_share_pct": 37.03,
+      "avg_basket_size": 283.1,
+      "avg_transaction_val": 18326.01
+    },
+    {
+      "customer_type": "Wholesale",
+      "revenue": 24696155,
+      "quantity": 390311,
+      "transactions": 747,
+      "revenue_share_pct": 22.21,
+      "avg_basket_size": 522.5,
+      "avg_transaction_val": 33060.45
+    },
+    {
+      "customer_type": "Supermarket",
+      "revenue": 20229542,
+      "quantity": 314221,
+      "transactions": 1090,
+      "revenue_share_pct": 18.19,
+      "avg_basket_size": 288.3,
+      "avg_transaction_val": 18559.21
+    },
+    {
+      "customer_type": "Hotel / Restaurant",
+      "revenue": 15148250,
+      "quantity": 239739,
+      "transactions": 588,
+      "revenue_share_pct": 13.62,
+      "avg_basket_size": 407.7,
+      "avg_transaction_val": 25762.33
+    },
+    {
+      "customer_type": "Institution",
+      "revenue": 9937315,
+      "quantity": 155778,
+      "transactions": 310,
+      "revenue_share_pct": 8.94,
+      "avg_basket_size": 502.5,
+      "avg_transaction_val": 32055.85
+    }
+  ],
+  "payments": [
+    {
+      "payment_mode": "UPI",
+      "revenue": 52886372,
+      "transactions": 2420,
+      "share_pct": 47.56
+    },
+    {
+      "payment_mode": "Net Banking",
+      "revenue": 22338358,
+      "transactions": 981,
+      "share_pct": 20.09
+    },
+    {
+      "payment_mode": "Cash",
+      "revenue": 19247193,
+      "transactions": 842,
+      "share_pct": 17.31
+    },
+    {
+      "payment_mode": "Credit Card",
+      "revenue": 10550104,
+      "transactions": 435,
+      "share_pct": 9.49
+    },
+    {
+      "payment_mode": "Distributor Credit",
+      "revenue": 6167772,
+      "transactions": 304,
+      "share_pct": 5.55
+    }
+  ],
+  "scatter_sample": [
+    {
+      "Quantity_Sold": 187,
+      "Revenue": 58905,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 251,
+      "Revenue": 23845,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 257,
+      "Revenue": 35980,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 642,
+      "Revenue": 30816,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 268,
+      "Revenue": 25460,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 556,
+      "Revenue": 27800,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 348,
+      "Revenue": 17400,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1219,
+      "Revenue": 14628,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 180,
+      "Revenue": 46800,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 981,
+      "Revenue": 41202,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 273,
+      "Revenue": 25935,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 824,
+      "Revenue": 21424,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 718,
+      "Revenue": 33028,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 478,
+      "Revenue": 22944,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 108,
+      "Revenue": 65880,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 660,
+      "Revenue": 16500,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 359,
+      "Revenue": 12565,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 278,
+      "Revenue": 13900,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 171,
+      "Revenue": 23940,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 77,
+      "Revenue": 12320,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 304,
+      "Revenue": 6080,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 154,
+      "Revenue": 21560,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 276,
+      "Revenue": 168360,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 480,
+      "Revenue": 25920,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 874,
+      "Revenue": 10488,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 554,
+      "Revenue": 14404,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 167,
+      "Revenue": 9185,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 534,
+      "Revenue": 24564,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 115,
+      "Revenue": 10925,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 212,
+      "Revenue": 5300,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 178,
+      "Revenue": 24920,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 1236,
+      "Revenue": 14832,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 204,
+      "Revenue": 9792,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 111,
+      "Revenue": 5994,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 811,
+      "Revenue": 38928,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 446,
+      "Revenue": 21408,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 180,
+      "Revenue": 9000,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 220,
+      "Revenue": 11000,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1397,
+      "Revenue": 58674,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 169,
+      "Revenue": 47320,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 133,
+      "Revenue": 41895,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 43,
+      "Revenue": 6880,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 402,
+      "Revenue": 20100,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 177,
+      "Revenue": 9558,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 296,
+      "Revenue": 15984,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 85,
+      "Revenue": 13600,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 334,
+      "Revenue": 93520,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 173,
+      "Revenue": 9515,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 906,
+      "Revenue": 38052,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 404,
+      "Revenue": 20200,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 851,
+      "Revenue": 17020,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 53,
+      "Revenue": 14840,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 144,
+      "Revenue": 39600,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 54,
+      "Revenue": 14040,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 259,
+      "Revenue": 6475,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 167,
+      "Revenue": 45925,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 293,
+      "Revenue": 80575,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 148,
+      "Revenue": 5180,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 187,
+      "Revenue": 8976,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 188,
+      "Revenue": 7520,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 64,
+      "Revenue": 39040,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 135,
+      "Revenue": 7425,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 396,
+      "Revenue": 10296,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 189,
+      "Revenue": 9450,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1334,
+      "Revenue": 26680,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 1134,
+      "Revenue": 47628,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1021,
+      "Revenue": 42882,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 353,
+      "Revenue": 12355,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 371,
+      "Revenue": 17808,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 143,
+      "Revenue": 87230,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 931,
+      "Revenue": 39102,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 159,
+      "Revenue": 3975,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 1183,
+      "Revenue": 54418,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 111,
+      "Revenue": 4440,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 178,
+      "Revenue": 7120,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 140,
+      "Revenue": 39200,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 53,
+      "Revenue": 14840,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 66,
+      "Revenue": 3630,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 123,
+      "Revenue": 38745,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 170,
+      "Revenue": 6800,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 144,
+      "Revenue": 39600,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 191,
+      "Revenue": 10314,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 345,
+      "Revenue": 6900,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 118,
+      "Revenue": 37170,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 689,
+      "Revenue": 31694,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 100,
+      "Revenue": 61000,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 194,
+      "Revenue": 6790,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 1317,
+      "Revenue": 55314,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1809,
+      "Revenue": 75978,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 298,
+      "Revenue": 3576,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 455,
+      "Revenue": 19110,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 605,
+      "Revenue": 15125,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 666,
+      "Revenue": 17316,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 128,
+      "Revenue": 6400,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 976,
+      "Revenue": 11712,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 42,
+      "Revenue": 13230,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 891,
+      "Revenue": 40986,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 118,
+      "Revenue": 18880,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 96,
+      "Revenue": 26400,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 164,
+      "Revenue": 15580,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 160,
+      "Revenue": 4000,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 85,
+      "Revenue": 4590,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 71,
+      "Revenue": 2840,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 412,
+      "Revenue": 10712,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 120,
+      "Revenue": 19200,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 100,
+      "Revenue": 5500,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 347,
+      "Revenue": 17350,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 28,
+      "Revenue": 7840,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 1171,
+      "Revenue": 53866,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 713,
+      "Revenue": 34224,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 53,
+      "Revenue": 14840,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 91,
+      "Revenue": 25025,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 222,
+      "Revenue": 11100,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 258,
+      "Revenue": 6708,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 123,
+      "Revenue": 38745,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 1292,
+      "Revenue": 54264,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 150,
+      "Revenue": 6000,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 1102,
+      "Revenue": 46284,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 261,
+      "Revenue": 36540,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 1298,
+      "Revenue": 59708,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 340,
+      "Revenue": 11900,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 108,
+      "Revenue": 28080,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 1189,
+      "Revenue": 49938,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 128,
+      "Revenue": 6912,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 46,
+      "Revenue": 2530,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 472,
+      "Revenue": 12272,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 361,
+      "Revenue": 17328,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 329,
+      "Revenue": 15792,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 195,
+      "Revenue": 4875,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 333,
+      "Revenue": 46620,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 125,
+      "Revenue": 20000,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 196,
+      "Revenue": 10780,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 196,
+      "Revenue": 7840,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 464,
+      "Revenue": 16240,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 115,
+      "Revenue": 29900,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 585,
+      "Revenue": 28080,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 244,
+      "Revenue": 12200,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1085,
+      "Revenue": 45570,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 188,
+      "Revenue": 10340,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 876,
+      "Revenue": 42048,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 96,
+      "Revenue": 13440,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 343,
+      "Revenue": 8575,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 37,
+      "Revenue": 10360,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 65,
+      "Revenue": 18200,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 592,
+      "Revenue": 7104,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 515,
+      "Revenue": 24720,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 124,
+      "Revenue": 6696,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 671,
+      "Revenue": 17446,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 111,
+      "Revenue": 4440,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 117,
+      "Revenue": 4680,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 36,
+      "Revenue": 5760,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 128,
+      "Revenue": 20480,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 583,
+      "Revenue": 6996,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 154,
+      "Revenue": 8470,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 181,
+      "Revenue": 49775,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 952,
+      "Revenue": 39984,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 330,
+      "Revenue": 8250,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 1522,
+      "Revenue": 18264,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 550,
+      "Revenue": 11000,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 99,
+      "Revenue": 13860,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 405,
+      "Revenue": 8100,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 52,
+      "Revenue": 31720,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 456,
+      "Revenue": 43320,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 243,
+      "Revenue": 76545,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 336,
+      "Revenue": 15456,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 442,
+      "Revenue": 22100,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 141,
+      "Revenue": 7050,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 271,
+      "Revenue": 5420,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 301,
+      "Revenue": 94815,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 252,
+      "Revenue": 10080,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 91,
+      "Revenue": 23660,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 124,
+      "Revenue": 19840,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 74,
+      "Revenue": 11840,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 485,
+      "Revenue": 16975,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 65,
+      "Revenue": 18200,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 51,
+      "Revenue": 8160,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 354,
+      "Revenue": 7080,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 968,
+      "Revenue": 11616,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 317,
+      "Revenue": 17118,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 121,
+      "Revenue": 6655,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 471,
+      "Revenue": 22608,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 351,
+      "Revenue": 17550,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 566,
+      "Revenue": 26036,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 276,
+      "Revenue": 26220,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 622,
+      "Revenue": 28612,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 378,
+      "Revenue": 35910,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 495,
+      "Revenue": 9900,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 355,
+      "Revenue": 17750,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 126,
+      "Revenue": 17640,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 104,
+      "Revenue": 63440,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 54,
+      "Revenue": 32940,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 472,
+      "Revenue": 23600,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 258,
+      "Revenue": 12384,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 220,
+      "Revenue": 8800,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 255,
+      "Revenue": 6375,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 549,
+      "Revenue": 23058,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 140,
+      "Revenue": 44100,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 179,
+      "Revenue": 6265,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 106,
+      "Revenue": 14840,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 544,
+      "Revenue": 10880,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 246,
+      "Revenue": 12300,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 217,
+      "Revenue": 11718,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 70,
+      "Revenue": 1750,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 169,
+      "Revenue": 27040,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 666,
+      "Revenue": 7992,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 86,
+      "Revenue": 4730,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 361,
+      "Revenue": 14440,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 176,
+      "Revenue": 7040,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 55,
+      "Revenue": 15125,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 63,
+      "Revenue": 10080,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 675,
+      "Revenue": 31050,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 66,
+      "Revenue": 9240,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 113,
+      "Revenue": 18080,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 277,
+      "Revenue": 14958,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 378,
+      "Revenue": 7560,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 165,
+      "Revenue": 9075,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 2339,
+      "Revenue": 98238,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 286,
+      "Revenue": 11440,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 742,
+      "Revenue": 34132,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 314,
+      "Revenue": 15700,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 483,
+      "Revenue": 22218,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 569,
+      "Revenue": 26174,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 116,
+      "Revenue": 16240,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 412,
+      "Revenue": 10300,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 38,
+      "Revenue": 10640,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 182,
+      "Revenue": 10010,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 688,
+      "Revenue": 8256,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 252,
+      "Revenue": 13608,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 263,
+      "Revenue": 6575,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 168,
+      "Revenue": 3360,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 103,
+      "Revenue": 3605,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 241,
+      "Revenue": 6266,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 238,
+      "Revenue": 65450,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 179,
+      "Revenue": 6265,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 295,
+      "Revenue": 15930,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 231,
+      "Revenue": 12705,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 212,
+      "Revenue": 10600,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 75,
+      "Revenue": 19500,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 73,
+      "Revenue": 20075,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 467,
+      "Revenue": 22416,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 327,
+      "Revenue": 16350,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 42,
+      "Revenue": 10920,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 103,
+      "Revenue": 28840,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 127,
+      "Revenue": 4445,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 74,
+      "Revenue": 45140,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 109,
+      "Revenue": 29975,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 338,
+      "Revenue": 6760,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 1206,
+      "Revenue": 14472,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 342,
+      "Revenue": 18468,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 30,
+      "Revenue": 8400,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 126,
+      "Revenue": 6804,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 314,
+      "Revenue": 13188,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 108,
+      "Revenue": 15120,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 271,
+      "Revenue": 14905,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 339,
+      "Revenue": 15594,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 136,
+      "Revenue": 4760,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 47,
+      "Revenue": 12220,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 143,
+      "Revenue": 40040,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 92,
+      "Revenue": 28980,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 868,
+      "Revenue": 41664,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 128,
+      "Revenue": 33280,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 98,
+      "Revenue": 3920,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 35,
+      "Revenue": 9100,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 139,
+      "Revenue": 3475,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 64,
+      "Revenue": 17600,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 159,
+      "Revenue": 6360,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 295,
+      "Revenue": 14160,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 208,
+      "Revenue": 33280,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 245,
+      "Revenue": 8575,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 113,
+      "Revenue": 68930,
+      "Product": "Nandini Pure Ghee (1L)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 864,
+      "Revenue": 36288,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 105,
+      "Revenue": 27300,
+      "Product": "Nandini Gulab Jamun (1Kg)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 240,
+      "Revenue": 75600,
+      "Product": "Nandini Pure Ghee (500Ml)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 111,
+      "Revenue": 17760,
+      "Product": "Nandini Mysore Pak (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 589,
+      "Revenue": 14725,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 215,
+      "Revenue": 5375,
+      "Product": "Nandini Kulfi (50ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 356,
+      "Revenue": 12460,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 124,
+      "Revenue": 4340,
+      "Product": "Nandini Flavoured Milk Badam (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 275,
+      "Revenue": 12650,
+      "Product": "Nandini Homogenised Cow Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 1601,
+      "Revenue": 41626,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 293,
+      "Revenue": 11720,
+      "Product": "Nandini Set Curd (400g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 69,
+      "Revenue": 3795,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 1760,
+      "Revenue": 73920,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 686,
+      "Revenue": 13720,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 120,
+      "Revenue": 16800,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 978,
+      "Revenue": 11736,
+      "Product": "Nandini Spiced Buttermilk (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 266,
+      "Revenue": 13300,
+      "Product": "Nandini Shubham Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 506,
+      "Revenue": 10120,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 155,
+      "Revenue": 14725,
+      "Product": "Nandini Fresh Paneer (200g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 44,
+      "Revenue": 6160,
+      "Product": "Nandini Milk Peda (250g)",
+      "Category": "Sweets"
+    },
+    {
+      "Quantity_Sold": 52,
+      "Revenue": 14560,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 79,
+      "Revenue": 22120,
+      "Product": "Nandini Unsalted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 111,
+      "Revenue": 6105,
+      "Product": "Nandini Cassata Ice Cream (150ml)",
+      "Category": "Frozen"
+    },
+    {
+      "Quantity_Sold": 187,
+      "Revenue": 51425,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 551,
+      "Revenue": 29754,
+      "Product": "Nandini Samrudhi Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 482,
+      "Revenue": 23136,
+      "Product": "Nandini Special Milk (1L)",
+      "Category": "Milk"
+    },
+    {
+      "Quantity_Sold": 260,
+      "Revenue": 6760,
+      "Product": "Nandini Curd (500g)",
+      "Category": "Fresh Dairy"
+    },
+    {
+      "Quantity_Sold": 658,
+      "Revenue": 13160,
+      "Product": "Nandini Sweet Lassi (200ml)",
+      "Category": "Beverages"
+    },
+    {
+      "Quantity_Sold": 66,
+      "Revenue": 18150,
+      "Product": "Nandini Salted Butter (500G)",
+      "Category": "Ghee & Butter"
+    },
+    {
+      "Quantity_Sold": 1007,
+      "Revenue": 42294,
+      "Product": "Nandini Toned Milk (1L)",
+      "Category": "Milk"
+    }
+  ],
+  "special_insights": {
+    "high_qty_low_rev": {
+      "rank": 15,
+      "product": "Nandini Spiced Buttermilk (200ml)",
+      "category": "Beverages",
+      "unit_price": 12,
+      "quantity": 256577,
+      "revenue": 3078924,
+      "transactions": 255,
+      "revenue_share_pct": 2.77,
+      "quantity_share_pct": 14.78
+    },
+    "low_qty_high_rev": {
+      "rank": 1,
+      "product": "Nandini Pure Ghee (1L)",
+      "category": "Ghee & Butter",
+      "unit_price": 610,
+      "quantity": 22554,
+      "revenue": 13757940,
+      "transactions": 210,
+      "revenue_share_pct": 12.37,
+      "quantity_share_pct": 1.3
+    }
+  }
+}

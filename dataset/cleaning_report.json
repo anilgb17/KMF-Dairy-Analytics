@@ -1,0 +1,64 @@
+{
+  "audit_before": {
+    "total_rows": 5000,
+    "total_columns": 10,
+    "duplicate_rows": 17,
+    "missing_values_total": 32,
+    "missing_by_column": {
+      "Date": 0,
+      "Product": 0,
+      "Category": 0,
+      "Location": 0,
+      "Distributor": 0,
+      "Quantity_Sold": 0,
+      "Unit_Price": 0,
+      "Revenue": 0,
+      "Customer_Type": 14,
+      "Payment_Mode": 18
+    },
+    "invalid_prices": 5
+  },
+  "audit_after": {
+    "clean_rows": 4982,
+    "total_columns": 14,
+    "duplicate_rows": 0,
+    "missing_values_total": 0,
+    "unique_products": 20,
+    "unique_locations": 10,
+    "unique_distributors": 10,
+    "total_revenue": 111189799,
+    "total_quantity": 1736152
+  },
+  "operations": [
+    {
+      "step": 1,
+      "name": "Deduplication",
+      "desc": "Identified and purged 17 duplicate rows."
+    },
+    {
+      "step": 2,
+      "name": "Price Validation",
+      "desc": "Corrected 5 negative/corrupt unit prices using absolute values and catalog lookups."
+    },
+    {
+      "step": 3,
+      "name": "String Normalization",
+      "desc": "Stripped rogue whitespaces, standardized title casing across Product and Location."
+    },
+    {
+      "step": 4,
+      "name": "Missing Value Imputation",
+      "desc": "Imputed 32 missing records in Customer_Type and Payment_Mode."
+    },
+    {
+      "step": 5,
+      "name": "Temporal Engineering",
+      "desc": "Parsed Date strings into ISO timestamps, engineered Month_Name, Month_Num, and Quarter features."
+    },
+    {
+      "step": 6,
+      "name": "Financial Integrity Check",
+      "desc": "Validated and recalibrated Revenue = Quantity_Sold * Unit_Price."
+    }
+  ]
+}

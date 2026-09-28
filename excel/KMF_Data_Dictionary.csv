@@ -1,0 +1,11 @@
+Column_Name,Data_Type,Description,Sample_Value,Validation_Rule
+Date,Date (DD-MM-YYYY),Transaction chronological timestamp,15-08-2024,Must fall within calendar year 2024
+Product,Text,Authentic KMF Nandini product SKU,Nandini Pure Ghee (1L),Must match official SKU catalog
+Category,Text,Product segment classification,Ghee & Butter,Milk | Fresh Dairy | Ghee & Butter | Sweets | Beverages | Frozen
+Location,Text,Karnataka consumption district,Bengaluru,One of 10 designated Karnataka districts
+Distributor,Text,Authorized regional distribution channel,Apex Dairy Supplies Bengaluru,Must be authorized KMF distributor
+Quantity_Sold,Integer,Consignment volume in packets/units,120,Must be positive integer > 0
+Unit_Price,Currency (INR),Retail pricing benchmark (₹),610,Must match catalog price > 0
+Revenue,Currency (INR),Total transaction turnover (₹),73200,Calculated: Quantity_Sold * Unit_Price
+Customer_Type,Text,Buyer purchasing classification,Wholesale,Retail | Supermarket | Wholesale | Hotel / Restaurant | Institution
+Payment_Mode,Text,Financial settlement mechanism,UPI,UPI | Net Banking | Cash | Credit Card | Distributor Credit

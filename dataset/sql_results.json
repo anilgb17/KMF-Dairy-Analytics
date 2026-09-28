@@ -1,0 +1,671 @@
+[
+  {
+    "id": "q1",
+    "title": "Total Revenue, Units Sold & Order Averages",
+    "question": "What is total revenue, total quantity, and transaction count?",
+    "sql": "SELECT \n    COUNT(*) AS total_transactions,\n    SUM(Quantity_Sold) AS total_units_sold,\n    SUM(Revenue) AS total_revenue_inr,\n    ROUND(AVG(Revenue), 2) AS avg_transaction_value,\n    ROUND(AVG(Quantity_Sold), 2) AS avg_units_per_order\nFROM kmf_sales;",
+    "columns": [
+      "total_transactions",
+      "total_units_sold",
+      "total_revenue_inr",
+      "avg_transaction_value",
+      "avg_units_per_order"
+    ],
+    "rows": [
+      {
+        "total_transactions": 4982,
+        "total_units_sold": 1736152,
+        "total_revenue_inr": 111189799,
+        "avg_transaction_value": 22318.31,
+        "avg_units_per_order": 348.48
+      }
+    ],
+    "row_count": 1
+  },
+  {
+    "id": "q2",
+    "title": "Highest Revenue Generating Products",
+    "question": "Which dairy products generate the highest revenue?",
+    "sql": "SELECT \n    Product,\n    Category,\n    Unit_Price,\n    SUM(Quantity_Sold) AS total_quantity,\n    SUM(Revenue) AS total_revenue,\n    ROUND((SUM(Revenue) * 100.0 / (SELECT SUM(Revenue) FROM kmf_sales)), 2) AS revenue_share_pct\nFROM kmf_sales\nGROUP BY Product, Category, Unit_Price\nORDER BY total_revenue DESC;",
+    "columns": [
+      "Product",
+      "Category",
+      "Unit_Price",
+      "total_quantity",
+      "total_revenue",
+      "revenue_share_pct"
+    ],
+    "rows": [
+      {
+        "Product": "Nandini Pure Ghee (1L)",
+        "Category": "Ghee & Butter",
+        "Unit_Price": 610,
+        "total_quantity": 22554,
+        "total_revenue": 13757940,
+        "revenue_share_pct": 12.37
+      },
+      {
+        "Product": "Nandini Pure Ghee (500Ml)",
+        "Category": "Ghee & Butter",
+        "Unit_Price": 315,
+        "total_quantity": 40295,
+        "total_revenue": 12692925,
+        "revenue_share_pct": 11.42
+      },
+      {
+        "Product": "Nandini Toned Milk (1L)",
+        "Category": "Milk",
+        "Unit_Price": 42,
+        "total_quantity": 238672,
+        "total_revenue": 10024224,
+        "revenue_share_pct": 9.02
+      },
+      {
+        "Product": "Nandini Salted Butter (500G)",
+        "Category": "Ghee & Butter",
+        "Unit_Price": 275,
+        "total_quantity": 29333,
+        "total_revenue": 8066575,
+        "revenue_share_pct": 7.25
+      },
+      {
+        "Product": "Nandini Homogenised Cow Milk (1L)",
+        "Category": "Milk",
+        "Unit_Price": 46,
+        "total_quantity": 175187,
+        "total_revenue": 8058602,
+        "revenue_share_pct": 7.25
+      },
+      {
+        "Product": "Nandini Special Milk (1L)",
+        "Category": "Milk",
+        "Unit_Price": 48,
+        "total_quantity": 140087,
+        "total_revenue": 6724176,
+        "revenue_share_pct": 6.05
+      },
+      {
+        "Product": "Nandini Unsalted Butter (500G)",
+        "Category": "Ghee & Butter",
+        "Unit_Price": 280,
+        "total_quantity": 18890,
+        "total_revenue": 5289200,
+        "revenue_share_pct": 4.76
+      },
+      {
+        "Product": "Nandini Mysore Pak (250g)",
+        "Category": "Sweets",
+        "Unit_Price": 160,
+        "total_quantity": 32900,
+        "total_revenue": 5264000,
+        "revenue_share_pct": 4.73
+      },
+      {
+        "Product": "Nandini Milk Peda (250g)",
+        "Category": "Sweets",
+        "Unit_Price": 140,
+        "total_quantity": 36495,
+        "total_revenue": 5109300,
+        "revenue_share_pct": 4.6
+      },
+      {
+        "Product": "Nandini Fresh Paneer (200g)",
+        "Category": "Fresh Dairy",
+        "Unit_Price": 95,
+        "total_quantity": 53301,
+        "total_revenue": 5063595,
+        "revenue_share_pct": 4.55
+      },
+      {
+        "Product": "Nandini Gulab Jamun (1Kg)",
+        "Category": "Sweets",
+        "Unit_Price": 260,
+        "total_quantity": 18786,
+        "total_revenue": 4884360,
+        "revenue_share_pct": 4.39
+      },
+      {
+        "Product": "Nandini Shubham Milk (1L)",
+        "Category": "Milk",
+        "Unit_Price": 50,
+        "total_quantity": 86922,
+        "total_revenue": 4346100,
+        "revenue_share_pct": 3.91
+      },
+      {
+        "Product": "Nandini Curd (500g)",
+        "Category": "Fresh Dairy",
+        "Unit_Price": 26,
+        "total_quantity": 148224,
+        "total_revenue": 3853824,
+        "revenue_share_pct": 3.47
+      },
+      {
+        "Product": "Nandini Samrudhi Milk (1L)",
+        "Category": "Milk",
+        "Unit_Price": 54,
+        "total_quantity": 67841,
+        "total_revenue": 3663414,
+        "revenue_share_pct": 3.29
+      },
+      {
+        "Product": "Nandini Spiced Buttermilk (200ml)",
+        "Category": "Beverages",
+        "Unit_Price": 12,
+        "total_quantity": 256577,
+        "total_revenue": 3078924,
+        "revenue_share_pct": 2.77
+      },
+      {
+        "Product": "Nandini Flavoured Milk Badam (200ml)",
+        "Category": "Beverages",
+        "Unit_Price": 35,
+        "total_quantity": 77557,
+        "total_revenue": 2714495,
+        "revenue_share_pct": 2.44
+      },
+      {
+        "Product": "Nandini Sweet Lassi (200ml)",
+        "Category": "Beverages",
+        "Unit_Price": 20,
+        "total_quantity": 128274,
+        "total_revenue": 2565480,
+        "revenue_share_pct": 2.31
+      },
+      {
+        "Product": "Nandini Cassata Ice Cream (150ml)",
+        "Category": "Frozen",
+        "Unit_Price": 55,
+        "total_quantity": 41637,
+        "total_revenue": 2290035,
+        "revenue_share_pct": 2.06
+      },
+      {
+        "Product": "Nandini Kulfi (50ml)",
+        "Category": "Frozen",
+        "Unit_Price": 25,
+        "total_quantity": 77478,
+        "total_revenue": 1936950,
+        "revenue_share_pct": 1.74
+      },
+      {
+        "Product": "Nandini Set Curd (400g)",
+        "Category": "Fresh Dairy",
+        "Unit_Price": 40,
+        "total_quantity": 45142,
+        "total_revenue": 1805680,
+        "revenue_share_pct": 1.62
+      }
+    ],
+    "row_count": 20
+  },
+  {
+    "id": "q3",
+    "title": "Top Regional Markets by Sales Revenue",
+    "question": "Which location has the highest sales revenue?",
+    "sql": "SELECT \n    Location,\n    COUNT(*) AS total_orders,\n    SUM(Quantity_Sold) AS total_quantity,\n    SUM(Revenue) AS total_revenue,\n    ROUND((SUM(Revenue) * 100.0 / (SELECT SUM(Revenue) FROM kmf_sales)), 2) AS market_share_pct\nFROM kmf_sales\nGROUP BY Location\nORDER BY total_revenue DESC;",
+    "columns": [
+      "Location",
+      "total_orders",
+      "total_quantity",
+      "total_revenue",
+      "market_share_pct"
+    ],
+    "rows": [
+      {
+        "Location": "Bengaluru",
+        "total_orders": 1898,
+        "total_quantity": 752973,
+        "total_revenue": 49567347,
+        "market_share_pct": 44.58
+      },
+      {
+        "Location": "Mysuru",
+        "total_orders": 706,
+        "total_quantity": 260453,
+        "total_revenue": 16178901,
+        "market_share_pct": 14.55
+      },
+      {
+        "Location": "Hubballi",
+        "total_orders": 568,
+        "total_quantity": 172634,
+        "total_revenue": 11409381,
+        "market_share_pct": 10.26
+      },
+      {
+        "Location": "Mangaluru",
+        "total_orders": 430,
+        "total_quantity": 131154,
+        "total_revenue": 7983522,
+        "market_share_pct": 7.18
+      },
+      {
+        "Location": "Belagavi",
+        "total_orders": 357,
+        "total_quantity": 96553,
+        "total_revenue": 6686634,
+        "market_share_pct": 6.01
+      },
+      {
+        "Location": "Kalaburagi",
+        "total_orders": 279,
+        "total_quantity": 85264,
+        "total_revenue": 5010904,
+        "market_share_pct": 4.51
+      },
+      {
+        "Location": "Davanagere",
+        "total_orders": 248,
+        "total_quantity": 77057,
+        "total_revenue": 4720739,
+        "market_share_pct": 4.25
+      },
+      {
+        "Location": "Ballari",
+        "total_orders": 168,
+        "total_quantity": 60545,
+        "total_revenue": 3533157,
+        "market_share_pct": 3.18
+      },
+      {
+        "Location": "Shivamogga",
+        "total_orders": 200,
+        "total_quantity": 63160,
+        "total_revenue": 3511827,
+        "market_share_pct": 3.16
+      },
+      {
+        "Location": "Tumakuru",
+        "total_orders": 128,
+        "total_quantity": 36359,
+        "total_revenue": 2587387,
+        "market_share_pct": 2.33
+      }
+    ],
+    "row_count": 10
+  },
+  {
+    "id": "q4",
+    "title": "Monthly Sales & Seasonality Breakdown",
+    "question": "What are monthly sales and revenue trends?",
+    "sql": "SELECT \n    SUBSTR(Date, 4, 2) AS month_num,\n    COUNT(*) AS transactions,\n    SUM(Quantity_Sold) AS monthly_quantity,\n    SUM(Revenue) AS monthly_revenue,\n    ROUND(AVG(Revenue), 2) AS avg_order_value\nFROM kmf_sales\nGROUP BY month_num\nORDER BY month_num ASC;",
+    "columns": [
+      "month_num",
+      "transactions",
+      "monthly_quantity",
+      "monthly_revenue",
+      "avg_order_value",
+      "month_name"
+    ],
+    "rows": [
+      {
+        "month_num": "01",
+        "transactions": 414,
+        "monthly_quantity": 135314,
+        "monthly_revenue": 8032763,
+        "avg_order_value": 19402.81,
+        "month_name": "Jan"
+      },
+      {
+        "month_num": "02",
+        "transactions": 397,
+        "monthly_quantity": 123426,
+        "monthly_revenue": 7605419,
+        "avg_order_value": 19157.23,
+        "month_name": "Feb"
+      },
+      {
+        "month_num": "03",
+        "transactions": 460,
+        "monthly_quantity": 183138,
+        "monthly_revenue": 10252512,
+        "avg_order_value": 22288.07,
+        "month_name": "Mar"
+      },
+      {
+        "month_num": "04",
+        "transactions": 386,
+        "monthly_quantity": 164331,
+        "monthly_revenue": 8395449,
+        "avg_order_value": 21749.87,
+        "month_name": "Apr"
+      },
+      {
+        "month_num": "05",
+        "transactions": 397,
+        "monthly_quantity": 181830,
+        "monthly_revenue": 8797908,
+        "avg_order_value": 22160.98,
+        "month_name": "May"
+      },
+      {
+        "month_num": "06",
+        "transactions": 395,
+        "monthly_quantity": 120540,
+        "monthly_revenue": 7937605,
+        "avg_order_value": 20095.2,
+        "month_name": "Jun"
+      },
+      {
+        "month_num": "07",
+        "transactions": 454,
+        "monthly_quantity": 138597,
+        "monthly_revenue": 8602222,
+        "avg_order_value": 18947.63,
+        "month_name": "Jul"
+      },
+      {
+        "month_num": "08",
+        "transactions": 413,
+        "monthly_quantity": 138602,
+        "monthly_revenue": 11137908,
+        "avg_order_value": 26968.3,
+        "month_name": "Aug"
+      },
+      {
+        "month_num": "09",
+        "transactions": 411,
+        "monthly_quantity": 135647,
+        "monthly_revenue": 10823211,
+        "avg_order_value": 26333.85,
+        "month_name": "Sep"
+      },
+      {
+        "month_num": "10",
+        "transactions": 417,
+        "monthly_quantity": 148954,
+        "monthly_revenue": 10495954,
+        "avg_order_value": 25170.15,
+        "month_name": "Oct"
+      },
+      {
+        "month_num": "11",
+        "transactions": 406,
+        "monthly_quantity": 139649,
+        "monthly_revenue": 10560035,
+        "avg_order_value": 26009.94,
+        "month_name": "Nov"
+      },
+      {
+        "month_num": "12",
+        "transactions": 432,
+        "monthly_quantity": 126124,
+        "monthly_revenue": 8548813,
+        "avg_order_value": 19788.92,
+        "month_name": "Dec"
+      }
+    ],
+    "row_count": 12
+  },
+  {
+    "id": "q5",
+    "title": "Top Performing Regional Distributors",
+    "question": "Who are the top distributors by throughput & revenue?",
+    "sql": "SELECT \n    Distributor,\n    Location,\n    COUNT(*) AS dispatch_count,\n    SUM(Quantity_Sold) AS total_units_distributed,\n    SUM(Revenue) AS total_revenue_generated,\n    ROUND(AVG(Revenue), 2) AS avg_dispatch_value\nFROM kmf_sales\nGROUP BY Distributor, Location\nORDER BY total_revenue_generated DESC;",
+    "columns": [
+      "Distributor",
+      "Location",
+      "dispatch_count",
+      "total_units_distributed",
+      "total_revenue_generated",
+      "avg_dispatch_value"
+    ],
+    "rows": [
+      {
+        "Distributor": "Apex Dairy Supplies Bengaluru",
+        "Location": "Bengaluru",
+        "dispatch_count": 1898,
+        "total_units_distributed": 752973,
+        "total_revenue_generated": 49567347,
+        "avg_dispatch_value": 26115.57
+      },
+      {
+        "Distributor": "Chamundi Agencies Mysuru",
+        "Location": "Mysuru",
+        "dispatch_count": 706,
+        "total_units_distributed": 260453,
+        "total_revenue_generated": 16178901,
+        "avg_dispatch_value": 22916.29
+      },
+      {
+        "Distributor": "Kittur Distributors Hubballi",
+        "Location": "Hubballi",
+        "dispatch_count": 568,
+        "total_units_distributed": 172634,
+        "total_revenue_generated": 11409381,
+        "avg_dispatch_value": 20086.94
+      },
+      {
+        "Distributor": "Coastal Cool Logistics Mangaluru",
+        "Location": "Mangaluru",
+        "dispatch_count": 430,
+        "total_units_distributed": 131154,
+        "total_revenue_generated": 7983522,
+        "avg_dispatch_value": 18566.33
+      },
+      {
+        "Distributor": "North Karnataka Milk Center Belagavi",
+        "Location": "Belagavi",
+        "dispatch_count": 357,
+        "total_units_distributed": 96553,
+        "total_revenue_generated": 6686634,
+        "avg_dispatch_value": 18730.07
+      },
+      {
+        "Distributor": "Kalyana Karnataka Foods Kalaburagi",
+        "Location": "Kalaburagi",
+        "dispatch_count": 279,
+        "total_units_distributed": 85264,
+        "total_revenue_generated": 5010904,
+        "avg_dispatch_value": 17960.23
+      },
+      {
+        "Distributor": "Central Karnataka Traders Davanagere",
+        "Location": "Davanagere",
+        "dispatch_count": 248,
+        "total_units_distributed": 77057,
+        "total_revenue_generated": 4720739,
+        "avg_dispatch_value": 19035.24
+      },
+      {
+        "Distributor": "Tungabhadra Dairy Logistics Ballari",
+        "Location": "Ballari",
+        "dispatch_count": 168,
+        "total_units_distributed": 60545,
+        "total_revenue_generated": 3533157,
+        "avg_dispatch_value": 21030.7
+      },
+      {
+        "Distributor": "Malnad Dairy Network Shivamogga",
+        "Location": "Shivamogga",
+        "dispatch_count": 200,
+        "total_units_distributed": 63160,
+        "total_revenue_generated": 3511827,
+        "avg_dispatch_value": 17559.13
+      },
+      {
+        "Distributor": "Siddaganga Milk Express Tumakuru",
+        "Location": "Tumakuru",
+        "dispatch_count": 128,
+        "total_units_distributed": 36359,
+        "total_revenue_generated": 2587387,
+        "avg_dispatch_value": 20213.96
+      }
+    ],
+    "row_count": 10
+  },
+  {
+    "id": "q6",
+    "title": "Products with Low Sales Volume",
+    "question": "Which products have relatively lower sales and revenue?",
+    "sql": "SELECT \n    Product,\n    Category,\n    SUM(Quantity_Sold) AS total_quantity,\n    SUM(Revenue) AS total_revenue,\n    ROUND(AVG(Quantity_Sold), 1) AS avg_order_quantity\nFROM kmf_sales\nGROUP BY Product, Category\nORDER BY total_revenue ASC\nLIMIT 5;",
+    "columns": [
+      "Product",
+      "Category",
+      "total_quantity",
+      "total_revenue",
+      "avg_order_quantity"
+    ],
+    "rows": [
+      {
+        "Product": "Nandini Set Curd (400g)",
+        "Category": "Fresh Dairy",
+        "total_quantity": 45142,
+        "total_revenue": 1805680,
+        "avg_order_quantity": 183.5
+      },
+      {
+        "Product": "Nandini Kulfi (50ml)",
+        "Category": "Frozen",
+        "total_quantity": 77478,
+        "total_revenue": 1936950,
+        "avg_order_quantity": 279.7
+      },
+      {
+        "Product": "Nandini Cassata Ice Cream (150ml)",
+        "Category": "Frozen",
+        "total_quantity": 41637,
+        "total_revenue": 2290035,
+        "avg_order_quantity": 175.7
+      },
+      {
+        "Product": "Nandini Sweet Lassi (200ml)",
+        "Category": "Beverages",
+        "total_quantity": 128274,
+        "total_revenue": 2565480,
+        "avg_order_quantity": 503.0
+      },
+      {
+        "Product": "Nandini Flavoured Milk Badam (200ml)",
+        "Category": "Beverages",
+        "total_quantity": 77557,
+        "total_revenue": 2714495,
+        "avg_order_quantity": 288.3
+      }
+    ],
+    "row_count": 5
+  },
+  {
+    "id": "q7",
+    "title": "Average Quantity Sold by Category",
+    "question": "What is the average quantity sold per transaction by category?",
+    "sql": "SELECT \n    Category,\n    COUNT(*) AS transaction_count,\n    SUM(Quantity_Sold) AS total_quantity,\n    ROUND(AVG(Quantity_Sold), 2) AS avg_quantity_sold,\n    SUM(Revenue) AS category_revenue,\n    ROUND((SUM(Revenue) * 100.0 / (SELECT SUM(Revenue) FROM kmf_sales)), 2) AS revenue_share_pct\nFROM kmf_sales\nGROUP BY Category\nORDER BY category_revenue DESC;",
+    "columns": [
+      "Category",
+      "transaction_count",
+      "total_quantity",
+      "avg_quantity_sold",
+      "category_revenue",
+      "revenue_share_pct"
+    ],
+    "rows": [
+      {
+        "Category": "Ghee & Butter",
+        "transaction_count": 962,
+        "total_quantity": 111072,
+        "avg_quantity_sold": 115.46,
+        "category_revenue": 39806640,
+        "revenue_share_pct": 35.8
+      },
+      {
+        "Category": "Milk",
+        "transaction_count": 1328,
+        "total_quantity": 708709,
+        "avg_quantity_sold": 533.67,
+        "category_revenue": 32816516,
+        "revenue_share_pct": 29.51
+      },
+      {
+        "Category": "Sweets",
+        "transaction_count": 694,
+        "total_quantity": 88181,
+        "avg_quantity_sold": 127.06,
+        "category_revenue": 15257660,
+        "revenue_share_pct": 13.72
+      },
+      {
+        "Category": "Fresh Dairy",
+        "transaction_count": 705,
+        "total_quantity": 246667,
+        "avg_quantity_sold": 349.88,
+        "category_revenue": 10723099,
+        "revenue_share_pct": 9.64
+      },
+      {
+        "Category": "Beverages",
+        "transaction_count": 779,
+        "total_quantity": 462408,
+        "avg_quantity_sold": 593.59,
+        "category_revenue": 8358899,
+        "revenue_share_pct": 7.52
+      },
+      {
+        "Category": "Frozen",
+        "transaction_count": 514,
+        "total_quantity": 119115,
+        "avg_quantity_sold": 231.74,
+        "category_revenue": 4226985,
+        "revenue_share_pct": 3.8
+      }
+    ],
+    "row_count": 6
+  },
+  {
+    "id": "q8",
+    "title": "Customer Segment Revenue Contribution",
+    "question": "How do customer segments (Wholesale, Retail, etc.) compare?",
+    "sql": "SELECT \n    Customer_Type,\n    COUNT(*) AS order_count,\n    SUM(Quantity_Sold) AS total_units,\n    SUM(Revenue) AS total_revenue,\n    ROUND(AVG(Revenue), 2) AS avg_order_revenue,\n    ROUND((SUM(Revenue) * 100.0 / (SELECT SUM(Revenue) FROM kmf_sales)), 2) AS revenue_pct\nFROM kmf_sales\nGROUP BY Customer_Type\nORDER BY total_revenue DESC;",
+    "columns": [
+      "Customer_Type",
+      "order_count",
+      "total_units",
+      "total_revenue",
+      "avg_order_revenue",
+      "revenue_pct"
+    ],
+    "rows": [
+      {
+        "Customer_Type": "Retail",
+        "order_count": 2247,
+        "total_units": 636103,
+        "total_revenue": 41178537,
+        "avg_order_revenue": 18326.01,
+        "revenue_pct": 37.03
+      },
+      {
+        "Customer_Type": "Wholesale",
+        "order_count": 747,
+        "total_units": 390311,
+        "total_revenue": 24696155,
+        "avg_order_revenue": 33060.45,
+        "revenue_pct": 22.21
+      },
+      {
+        "Customer_Type": "Supermarket",
+        "order_count": 1090,
+        "total_units": 314221,
+        "total_revenue": 20229542,
+        "avg_order_revenue": 18559.21,
+        "revenue_pct": 18.19
+      },
+      {
+        "Customer_Type": "Hotel / Restaurant",
+        "order_count": 588,
+        "total_units": 239739,
+        "total_revenue": 15148250,
+        "avg_order_revenue": 25762.33,
+        "revenue_pct": 13.62
+      },
+      {
+        "Customer_Type": "Institution",
+        "order_count": 310,
+        "total_units": 155778,
+        "total_revenue": 9937315,
+        "avg_order_revenue": 32055.85,
+        "revenue_pct": 8.94
+      }
+    ],
+    "row_count": 5
+  }
+]

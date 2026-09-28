@@ -1,0 +1,69 @@
+// ==============================================================================
+// POWER BI DAX MEASURES: KMF Dairy Sales & Distribution Analytics
+// Author: Anil Govind Badiger (Computer Science & Engineering)
+// ==============================================================================
+
+// 1. Core KPIs
+Total Revenue = SUM(kmf_sales[Revenue])
+
+Total Quantity Sold = SUM(kmf_sales[Quantity_Sold])
+
+Total Transactions = COUNTROWS(kmf_sales)
+
+Average Order Value = DIVIDE([Total Revenue], [Total Transactions], 0)
+
+Average Quantity Per Order = DIVIDE([Total Quantity Sold], [Total Transactions], 0)
+
+// 2. Formatting Helpers
+Total Revenue in Cr = 
+    DIVIDE([Total Revenue], 10000000, 0)
+
+Total Revenue in Lakhs = 
+    DIVIDE([Total Revenue], 100000, 0)
+
+// 3. Share & Contribution Percentages
+Product Revenue Share % = 
+    DIVIDE(
+        [Total Revenue],
+        CALCULATE([Total Revenue], ALL(kmf_sales[Product])),
+        0
+    )
+
+Category Revenue Share % = 
+    DIVIDE(
+        [Total Revenue],
+        CALCULATE([Total Revenue], ALL(kmf_sales[Category])),
+        0
+    )
+
+Location Market Share % = 
+    DIVIDE(
+        [Total Revenue],
+        CALCULATE([Total Revenue], ALL(kmf_sales[Location])),
+        0
+    )
+
+// 4. Time Intelligence & Moving Averages
+Revenue 3M Moving Average = 
+    AVERAGEX(
+        DATESINPERIOD(
+            'DateTable'[Date],
+            LASTDATE('DateTable'[Date]),
+            -3,
+            MONTH
+        ),
+        [Total Revenue]
+    )
+
+Cumulative YTD Revenue = 
+    TOTALYTD([Total Revenue], 'DateTable'[Date])
+
+// 5. Ranking Measure
+Product Sales Rank = 
+    RANKX(
+        ALL(kmf_sales[Product]),
+        [Total Revenue],
+        ,
+        DESC,
+        Dense
+    )
